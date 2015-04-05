@@ -1,0 +1,10 @@
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\CompetingConsumers.Common.dll
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\CompetingConsumers.Common.pdb
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\Microsoft.ServiceBus.dll
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\Microsoft.ServiceBus.xml
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\obj\Debug\CompetingConsumers.Common.csprojResolveAssemblyReference.cache
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\obj\Debug\CompetingConsumers.Common.dll
+C:\Users\hakeemsm\Documents\Learning\Azure\PatternsRedux\CompetingConsumers.Azure\CompetingConsumers.Common\obj\Debug\CompetingConsumers.Common.pdb

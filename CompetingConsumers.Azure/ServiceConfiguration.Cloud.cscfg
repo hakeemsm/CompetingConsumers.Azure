@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CompetingConsumers.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="PublishingService">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="ServiceBusConnectionString_Publisher" value="Endpoint=sb://[your namespace].servicebus.windows.net;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=[your secret]" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="" />
+    </ConfigurationSettings>
+    <Certificates>
+     
+    </Certificates>
+  </Role>
+  <Role name="ReceivingService">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="ServiceBusConnectionString_Receiver" value="Endpoint=sb://[your namespace].servicebus.windows.net;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=[your secret]" />
+      <Setting name="MessageStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=[Storage account name];AccountKey=[Account storage primary key]" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="" />
+    </ConfigurationSettings>
+    <Certificates>
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

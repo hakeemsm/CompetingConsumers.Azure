@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="CompetingConsumers.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WorkerRole name="PublishingService" vmsize="Small">
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="ServiceBusConnectionString_Publisher" />
+    </ConfigurationSettings>
+  </WorkerRole>
+  <WorkerRole name="ReceivingService" vmsize="Small">
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="ServiceBusConnectionString_Receiver" />
+      <Setting name="MessageStorageConnectionString" />
+    </ConfigurationSettings>
+  </WorkerRole>
+</ServiceDefinition>
